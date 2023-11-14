@@ -29,6 +29,12 @@ const Header = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (!menuVisible) {
+      setMenu(false);
+    }
+  }, [menuVisible]);
+
   return (
     <header
       className={`fixed navbar  bg-base-300 z-50  w-full top-0 left-0 transition-opacity ease-in-out duration-300  ${
@@ -61,7 +67,7 @@ const Header = () => {
 
       <div
         className={`${
-          menu ? "translate-x-full md:translate-x-0" : "translate-x-0"
+          menu ? "translate-x-0" : " translate-x-full md:translate-x-0"
         } absolute ease-in duration-300  top-[100%] flex flex-col gap-4 justify-start items-center left-0 w-full h-[calc(100vh-4rem)] bg-base-300 md:static md:h-auto md:w-auto md:flex-row md:gap-0`}
       >
         <ul className="menu menu-vertical md:menu-horizontal px-1 font-semibold">
