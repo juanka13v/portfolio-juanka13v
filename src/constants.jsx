@@ -159,3 +159,195 @@ export const DataServices = {
     },
   ],
 };
+
+export const DataProjects = {
+  filters: [
+    "html",
+    "css",
+    "js",
+    "react",
+    "mongodb",
+    "sql",
+    "typescript",
+    "python",
+    "django",
+    "express",
+    "rest-api",
+    "pwa",
+    "lading page",
+    "tailwind",
+  ],
+  projects: [
+    {
+      id: 1,
+      title: "Portfolio website",
+      description:
+        "Un sitio web de portafolio personal que muestra mi trabajo y habilidades.",
+      tag: ["html", "css", "js", "landing page"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/portfolio",
+      github_url: "https://github.com/example/portfolio",
+    },
+    {
+      id: 2,
+      title: "To-do app",
+      description:
+        "Una aplicación de lista de tareas pendientes simple y fácil de usar.",
+      tag: ["react", "redux", "tailwind"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/todo-app",
+      github_url: "https://github.com/example/todo-app",
+    },
+    {
+      id: 3,
+      title: "Calculator",
+      description:
+        "Una calculadora simple que permite realizar operaciones matemáticas básicas.",
+      tag: ["pwa", "typeScript"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/calculator",
+      github_url: "https://github.com/example/calculator",
+    },
+    {
+      id: 4,
+      title: "Weather app",
+      description:
+        "Una aplicación que muestra el pronóstico del tiempo para una ubicación determinada.",
+      tag: ["html", "css", "js"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/weather-app",
+      github_url: "https://github.com/example/weather-app",
+    },
+    
+    {
+      id: 5,
+      title: "Blog",
+      description:
+        "Un blog personal que permite a los usuarios publicar artículos y comentarios.",
+      tag: ["html", "css", "js", "typescript"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/blog",
+      github_url: "https://github.com/example/blog",
+    },
+    {
+      id: 6,
+      title: "E-commerce website",
+      description:
+        "Un sitio web de comercio electrónico que permite a los usuarios comprar productos en línea.",
+      tag: ["react", "redux", "typescript"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/e-commerce",
+      github_url: "https://github.com/example/e-commerce",
+    },
+    {
+      id: 7,
+      title: "Game",
+      description: "Un juego simple que se puede jugar en el navegador.",
+      tag: ["js", "html","css"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/game",
+      github_url: "https://github.com/example/game",
+    },
+    {
+      id: 8,
+      title: "REST API",
+      description:
+        "Una API RESTful que proporciona servicios para crear, leer, actualizar y eliminar registros de usuarios.",
+      tag: [ "express", "mongodb", "rest-api"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/api",
+      github_url: "https://github.com/example/api",
+    },
+    {
+      id: 9,
+      title: "E-commerce backend",
+      description:
+        "Un backend para un sitio web de comercio electrónico que proporciona servicios para gestionar productos, pedidos y clientes.",
+      tag: ["python","django" ,"sql"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 10,
+      title: "Social media backend",
+      description:
+        "Un backend para una aplicación de redes sociales que proporciona servicios para crear cuentas de usuario, publicar publicaciones y enviar mensajes.",
+      tag: ["rest-api", "express"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 11,
+      title: "Authentication backend",
+      description:
+        "Un backend que proporciona servicios para autenticar y autorizar usuarios.",
+      tag: ["python", "django"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 12,
+      title: "Payment processing backend",
+      description:
+        "Un backend que proporciona servicios para procesar pagos con tarjeta de crédito.",
+      tag: ["express", "typescript"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 13,
+      title: "Logistics backend",
+      description:
+        "Un backend que proporciona servicios para gestionar el inventario y el envío de productos.",
+      tag: ["rest-api", "express", "mongodb"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 14,
+      title: "Machine learning backend",
+      description:
+        "Un backend que proporciona servicios para entrenar y ejecutar modelos de aprendizaje automático.",
+      tag: ["django", "python", "rest-api"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 15,
+      title: "Data warehouse backend",
+      description:
+        "Un backend que proporciona servicios para almacenar y analizar datos.",
+      tag: ["express", "mongodb"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 16,
+      title: "IoT backend",
+      description:
+        "Un backend que proporciona servicios para gestionar dispositivos conectados.",
+      tag: ["express", "rest-api", "sql"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/backend",
+      github_url: "https://github.com/example/backend",
+    },
+    {
+      id: 17,
+      title: "Chat app",
+      description:
+        "Una aplicación de chat simple que permite a los usuarios chatear entre sí.",
+      tag: ["react", "redux", "tailwind"],
+      image: "https://i.imgur.com/ICCN3bB.png",
+      url: "https://www.example.com/chat-app",
+      github_url: "https://github.com/example/chat-app",
+    },
+  ],
+
+};
