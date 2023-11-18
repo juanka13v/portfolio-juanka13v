@@ -90,3 +90,72 @@ export const DataSkills = {
     },
   ],
 };
+
+export const DataServices = {
+  frontend: [
+    {
+      title: "Maquetado con HTML, CSS y JS",
+      description:
+        "Crea sitios web y aplicaciones web desde cero o actualiza sitios web existentes utilizando HTML, CSS y JS.",
+    },
+    {
+      title: "React",
+      description: "Crea aplicaciones web complejas utilizando React.",
+    },
+    {
+      title: "Responsive design",
+      description:
+        "Crea sitios web y aplicaciones web que se adapten a diferentes tamaños de pantalla.",
+    },
+    {
+      title: "Landing pages",
+      description: "Crea landing pages que generen leads y conversiones.",
+    },
+    {
+      title: "PWA",
+      description:
+        "Crea aplicaciones web progresivas que pueden instalarse en el dispositivo del usuario y funcionar sin conexión.",
+    },
+    {
+      title: "SEO",
+      description:
+        "Optimiza sitios web y aplicaciones web para que sean más visibles en los motores de búsqueda.",
+    },
+    {
+      title: "Comunicación con API",
+      description:
+        "Integra APIs con sitios web y aplicaciones web para proporcionar contenido, registrarse usuarios, autenticar usuarios y más.",
+    },
+  ],
+  backend: [
+    {
+      title: "Desarrollo de API",
+      description: "Crea API para proporcionar datos a las aplicaciones web.",
+    },
+    {
+      title: "Desarrollo de microservicios",
+      description:
+        "Crea microservicios para dividir una aplicación web en componentes más pequeños y manejables.",
+    },
+    {
+      title: "Desarrollo de bases de datos",
+      description:
+        "Diseña, implementa y administra bases de datos para una aplicación web.",
+    },
+    {
+      title: "Desarrollo de seguridad",
+      description:
+        "Implementa medidas de seguridad para proteger los datos y la infraestructura de una aplicación web.",
+    },
+    {
+      title: "Desarrollo de escalabilidad",
+      description:
+        "Crea sistemas que pueden crecer y adaptarse a las necesidades cambiantes de una aplicación web.",
+    },
+    {
+      title: "Desarrollo de rendimiento",
+      description:
+        "Crea sistemas que funcionan de forma rápida y eficiente para una aplicación web.",
+    },
+  ],
+};
