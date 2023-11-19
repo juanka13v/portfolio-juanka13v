@@ -29,7 +29,7 @@ const Projects = () => {
   };
 
   return (
-    <section className="flex flex-col gap-6 mb-10">
+    <section className="flex flex-col gap-6 mb-[100px]">
       <h2 className="text-center text-2xl font-bold">Projects</h2>
 
       <div className="flex flex-col gap-4">
@@ -51,12 +51,12 @@ const Projects = () => {
           <div
             className={`${
               isFull
-                ? "-bottom-[50px] h-auto"
+                ? "-bottom-[100px] h-auto"
                 : "bg-gradient-to-b from-transparent to-gray-600 h-[200px]  bottom-0"
             } absolute  left-0 right-0 w-full  flex justify-center items-center`}
           >
             <button
-              className="btn btn-ghost btn-outline z-20"
+              className="btn btn-primary z-20"
               onClick={handleFull}
             >
               {isFull ? "Ver menos" : "Ver Mas"}
