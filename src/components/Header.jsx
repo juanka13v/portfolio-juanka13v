@@ -37,7 +37,7 @@ const Header = () => {
 
   return (
     <header
-      className={`fixed navbar  bg-base-300 z-50  w-full top-0 left-0 transition-opacity ease-in-out duration-300  ${
+      className={`fixed navbar  bg-base-300 z-[1000]  w-full top-0 left-0 transition-opacity ease-in-out duration-300  ${
         menuVisible
           ? "opacity-100 pointer-events-auto"
           : "opacity-0 pointer-events-none"
